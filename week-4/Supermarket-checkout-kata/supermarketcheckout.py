@@ -1,8 +1,3 @@
-'''
-In the supermarket.py file, write a code that should achieve above tests through failing test, production test and the refractor test. 
-
-'''
-
 class Supermarket:
     def __init__(self, item, cart):
         self.item = item
@@ -94,7 +89,5 @@ class Checkout:
         return checkout_cart.cart
 
 
-
-
-check_one = Checkout()
-check_one.shop()
+check_Class = Checkout()
+check_Class.shop()
